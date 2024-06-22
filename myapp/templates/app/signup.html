@@ -1,0 +1,94 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% load i18n %}
+{% block signup-content %}
+<script>
+  {% for message in messages %}
+    {% if message.tags == 'error' %}
+    alert("{{ message }}");
+    {% endif %}
+  {% endfor %}
+</script>
+
+<section class="vh-100">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-white bg-dark" style="border-radius: 25px;">
+          <div class="card-body p-md-1">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">{% blocktrans %}Sign up{% endblocktrans %}</p>
+
+                <form class="mx-1 mx-md-4" method="POST" action="">
+                  {% csrf_token %}
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="form3Example1c">{% blocktrans %}User Name{% endblocktrans %}</label>
+                      {{ form.username }}
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="form3Example3c">{% blocktrans %}Your Email{% endblocktrans %}</label>
+                      {{ form.email }}
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="form3Example4c">{% blocktrans %}Password{% endblocktrans %}</label>
+                      {{ form.password1 }}
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="form3Example4cd">{% blocktrans %}Confirm Password{% endblocktrans %}</label>
+                      {{ form.password2 }}                          
+                    </div>
+                  </div>
+                  {% comment %} <div style="display: none;">
+                    {{ form.user_type }}  <!-- Hidden input field -->
+                  </div> {% endcomment %}
+                  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                    <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">{% blocktrans %}Register{% endblocktrans %}</button>
+                  </div>
+
+                  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                    <label class="form-label" for="form3Example1c">{% blocktrans %}You already have an account?{% endblocktrans %} <a href="{% url "login" %}">{% blocktrans %}Log in{% endblocktrans %}</a></label>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">                           
+                      {% for message in messages %}
+                        {% if message.tags == 'info' %}
+                          <label class="form-label text-warning" for="form3Example1c">{{ message }}</label>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
+
+                </form>
+
+              </div>
+              <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                <img src="{% static "images/signup.jpg" %}"
+                  class="img-fluid" alt="{% trans 'Sample image' %}">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock signup-content %}

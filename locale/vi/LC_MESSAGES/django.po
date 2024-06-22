@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-22 23:01+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\myapp\templates\app\base.html:38
+msgid "Home"
+msgstr "Trang Chủ"
+
+#: .\myapp\templates\app\base.html:41
+msgid "Introduction"
+msgstr "Giới Thiệu"
+
+#: .\myapp\templates\app\base.html:44
+msgid "Features"
+msgstr "Tính Năng"
+
+#: .\myapp\templates\app\base.html:47 .\myapp\templates\app\home.html:94
+msgid "About us"
+msgstr "Về Chúng Tôi"
+
+#: .\myapp\templates\app\base.html:50
+msgid "Subscription"
+msgstr "Đăng Kí"
+
+#: .\myapp\templates\app\base.html:79
+msgid "Start App"
+msgstr "Khởi Động App"
+
+#: .\myapp\templates\app\base.html:87
+msgid "Profile"
+msgstr "Trang cá nhân"
+
+#: .\myapp\templates\app\base.html:88
+msgid "Log out"
+msgstr "Thoát"
+
+#: .\myapp\templates\app\base.html:93 .\myapp\templates\app\forgot.html:33
+#: .\myapp\templates\app\reset.html:48 .\myapp\templates\app\signup.html:66
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: .\myapp\templates\app\base.html:96 .\myapp\templates\app\signup.html:22
+msgid "Sign up"
+msgstr "Đăng kí"
+
+#: .\myapp\templates\app\base.html:131
+msgid "Copyright ⓒ 2024 WibuUnited. All rights reserved."
+msgstr "Bản quyền ⓒ 2024 WibuUnited. Đã đăng ký Bản quyền."
+
+#: .\myapp\templates\app\forgot.html:15 .\myapp\templates\app\reset.html:22
+msgid ""
+"Provide the email address associated with your account to recover your "
+"password."
+msgstr "Cung cấp địa chỉ email ứng với tài khoản của bạn để phục hồi mật khẩu."
+
+#: .\myapp\templates\app\forgot.html:22 .\myapp\templates\app\reset.html:37
+#: .\myapp\templates\app\signup.html:53
+msgid "Confirm Password"
+msgstr "Xác nhận mật khẩu"
+
+#: .\myapp\templates\app\forgot.html:28 .\myapp\templates\app\reset.html:43
+#, fuzzy
+#| msgid "Password"
+msgid "Reset Password"
+msgstr "Mật khẩu"
+
+#: .\myapp\templates\app\forgot.html:34 .\myapp\templates\app\reset.html:49
+#: .\myapp\templates\app\signup.html:62
+msgid "Register"
+msgstr "Đăng ký"
+
+#: .\myapp\templates\app\home.html:30
+msgid "Previous"
+msgstr "Trước"
+
+#: .\myapp\templates\app\home.html:34
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: .\myapp\templates\app\home.html:41
+msgid ""
+"\"Cartoon Anyone\" redefines the art of cartoon creation with its innovative "
+"features and intuitive interface. \n"
+"    This revolutionary app empowers users of all skill levels to "
+"effortlessly transform ordinary photos into \n"
+"    captivating cartoons. Dive into a world of endless possibilities as you "
+"explore a wide range of customization \n"
+"    options, from adjusting colors and styles to adding whimsical effects. "
+"With a vast selection of cartoon \n"
+"    filters at your fingertips, you can give your artwork a unique and "
+"personal touch. The animation studio \n"
+"    feature allows you to breathe life into your characters and scenes, "
+"making your cartoons truly come alive. \n"
+"    Whether you're a seasoned illustrator or a casual doodler, \"Cartoon "
+"Anyone\" provides a seamless and enjoyable \n"
+"    cartooning experience. Share your creations with friends, family, or the "
+"vibrant \"Cartoon Anyone\" community, \n"
+"    or collaborate on projects in real-time. With its seamless sharing "
+"options and robust collaboration features, \n"
+"    \"Cartoon Anyone\" is not just an app – it's a creative hub where "
+"artists and enthusiasts come together to \n"
+"    unleash their imagination and showcase their talent."
+msgstr ""
+"\"Cartoon Anyone\" tái định nghĩa nghệ thuật tạo hình hoạt hình với những "
+"tính năng sáng tạo và giao diện trực quan. \n"
+"    Ứng dụng cách mạng này giúp người dùng ở mọi cấp độ dễ dàng biến ảnh "
+"thường thành \n"
+"    những bức tranh hoạt hình cuốn hút. Khám phá thế giới vô tận của các tùy "
+"chỉnh \n"
+"    từ điều chỉnh màu sắc và phong cách đến thêm các hiệu ứng dí dỏm. Với bộ "
+"lọc hoạt hình đa dạng trong tầm tay, bạn có thể tạo ra những tác phẩm nghệ "
+"thuật độc đáo và cá nhân. Tính năng studio hoạt hình \n"
+"    cho phép bạn thổi hồn vào các nhân vật và cảnh, làm cho bức tranh hoạt "
+"hình của bạn thực sự sống động. \n"
+"    Cho dù bạn là một họa sĩ minh họa kinh nghiệm hay chỉ là một người thích "
+"vẽ ngẫu nhiên, \"Cartoon Anyone\" mang lại trải nghiệm hoạt hình liền mạch "
+"và thú vị. Chia sẻ tác phẩm của bạn với bạn bè, gia đình, hoặc cộng đồng "
+"\"Cartoon Anyone\" \n"
+"    năng động, hoặc hợp tác trong các dự án theo thời gian thực. Với các tùy "
+"chọn chia sẻ liền mạch và tính năng hợp tác mạnh mẽ, \n"
+"    \"Cartoon Anyone\" không chỉ là một ứng dụng – nó là một trung tâm sáng "
+"tạo nơi \n"
+"    các nghệ sĩ và những người đam mê đến để \n"
+"    phóng thích trí tưởng tượng của họ và trưng bày tài năng của mình."
+
+#: .\myapp\templates\app\home.html:60
+msgid "For Personal"
+msgstr "Dành Cho Cá Nhân"
+
+#: .\myapp\templates\app\home.html:61
+msgid ""
+"Our pricing plans for personal use are tailored to meet your individual "
+"needs. Whether you're a student, \n"
+"    freelancer, or simply managing your personal projects, we have flexible "
+"pricing options to suit you.</br></br>\n"
+"    Features Include:"
+msgstr ""
+"Các gói giá của chúng tôi cho sử dụng cá nhân được thiết kế để đáp ứng nhu "
+"cầu của từng cá nhân. Cho dù bạn là sinh viên, \n"
+"    người làm việc tự do, hoặc chỉ đang quản lý các dự án cá nhân của mình, "
+"chúng tôi có các tùy chọn giá linh hoạt phù hợp với bạn.</br></br>\n"
+"    Bao gồm các tính năng:"
+
+#: .\myapp\templates\app\home.html:65
+msgid ""
+"Affordable Pricing: Enjoy competitive pricing plans designed for individuals."
+msgstr ""
+"Giá Cả Hợp Lý: Tận hưởng các gói giá cạnh tranh được thiết kế cho cá nhân."
+
+#: .\myapp\templates\app\home.html:66
+msgid ""
+"Customization: Choose from a range of packages to fit your budget and "
+"requirements."
+msgstr ""
+"Tùy Biến: Chọn từ nhiều gói để phù hợp với ngân sách và yêu cầu của bạn."
+
+#: .\myapp\templates\app\home.html:67
+msgid "No Hidden Fees: Transparent pricing with no surprises."
+msgstr "Không Có Phí Ẩn: Giá cả minh bạch không có bất ngờ."
+
+#: .\myapp\templates\app\home.html:68
+msgid ""
+"Scalability: Upgrade or downgrade your plan as needed, giving you the "
+"flexibility to adjust based on your usage."
+msgstr ""
+"Khả Năng Mở Rộng: Nâng cấp hoặc hạ cấp gói của bạn khi cần thiết, cho bạn sự "
+"linh hoạt để điều chỉnh dựa trên mức sử dụng."
+
+#: .\myapp\templates\app\home.html:69
+msgid ""
+"24/7 Support: Access to our dedicated support team whenever you need "
+"assistance."
+msgstr ""
+"Hỗ Trợ 24/7: Truy cập đội ngũ hỗ trợ tận tâm của chúng tôi bất cứ khi nào "
+"bạn cần trợ giúp."
+
+#: .\myapp\templates\app\home.html:71 .\myapp\templates\app\home.html:88
+#: .\myapp\templates\app\home.html:105
+msgid ""
+"With our personal use pricing, you can access all the tools and resources "
+"you need to succeed without breaking the bank. \n"
+"    Get started today and take control of your personal projects with ease."
+msgstr ""
+"Với giá cả sử dụng cá nhân của chúng tôi, bạn có thể truy cập tất cả các "
+"công cụ và tài nguyên bạn cần để thành công mà không phá vỡ ngân sách. \n"
+"    Bắt đầu ngay hôm nay và kiểm soát các dự án cá nhân của bạn một cách dễ "
+"dàng."
+
+#: .\myapp\templates\app\home.html:77
+msgid "For Business"
+msgstr "Dành Cho Doanh Nghiệp"
+
+#: .\myapp\templates\app\home.html:78 .\myapp\templates\app\home.html:95
+msgid ""
+"Our business pricing plans are designed to empower organizations of all "
+"sizes with the tools they need to thrive. Whether \n"
+"    you're a small startup or a large enterprise, we offer flexible pricing "
+"options to support your business goals.</br></br>\n"
+"    Features Include:"
+msgstr ""
+"Kế hoạch giá của chúng tôi dành cho doanh nghiệp được thiết kế để trang bị "
+"cho các tổ chức với các công cụ cần thiết để phát triển. Dù bạn là một công "
+"ty khởi nghiệp nhỏ hoặc một doanh nghiệp lớn, chúng tôi cung cấp các tùy "
+"chọn giá cả linh hoạt để hỗ trợ mục tiêu kinh doanh của bạn.</br></br>\n"
+"    Bao gồm các tính năng:"
+
+#: .\myapp\templates\app\home.html:82 .\myapp\templates\app\home.html:99
+msgid ""
+"Scalable Solutions: Choose from a range of scalable plans that grow with "
+"your business."
+msgstr ""
+"Giải pháp có thể mở rộng: Chọn từ một loạt các kế hoạch có thể mở rộng phù "
+"hợp với sự phát triển của doanh nghiệp của bạn."
+
+#: .\myapp\templates\app\home.html:83 .\myapp\templates\app\home.html:100
+msgid ""
+"Advanced Features: Access to advanced features tailored for business users, "
+"such as team collaboration, analytics, and priority support."
+msgstr ""
+"Tính năng tiên tiến: Truy cập vào các tính năng tiên tiến được tùy chỉnh cho "
+"người dùng doanh nghiệp, như hợp tác nhóm, phân tích và hỗ trợ ưu tiên."
+
+#: .\myapp\templates\app\home.html:84 .\myapp\templates\app\home.html:101
+msgid ""
+"Customization: Customize your plan to match your specific requirements and "
+"budget constraints."
+msgstr ""
+"Tùy chỉnh: Tùy chỉnh kế hoạch của bạn để phù hợp với các yêu cầu cụ thể và "
+"hạn chế về ngân sách."
+
+#: .\myapp\templates\app\home.html:85 .\myapp\templates\app\home.html:102
+msgid ""
+"Dedicated Support: Benefit from dedicated account managers and priority "
+"support channels to ensure your business receives the assistance it needs."
+msgstr ""
+"Hỗ trợ dành riêng: Hưởng lợi từ các quản lý tài khoản dành riêng và các kênh "
+"hỗ trợ ưu tiên để đảm bảo doanh nghiệp của bạn nhận được sự hỗ trợ cần thiết."
+
+#: .\myapp\templates\app\home.html:86 .\myapp\templates\app\home.html:103
+msgid ""
+"Security and Compliance: Industry-leading security measures and compliance "
+"standards to protect your sensitive data and meet regulatory requirements."
+msgstr ""
+"Bảo mật và Tuân thủ: Các biện pháp bảo mật hàng đầu ngành và các tiêu chuẩn "
+"tuân thủ để bảo vệ dữ liệu nhạy cảm của bạn và đáp ứng yêu cầu quy định."
+
+#: .\myapp\templates\app\login.html:21
+msgid "login form"
+msgstr "mẫu đăng nhập"
+
+#: .\myapp\templates\app\login.html:30
+msgid "Logo"
+msgstr "Logo"
+
+#: .\myapp\templates\app\login.html:33
+msgid "Sign into your account"
+msgstr "Đăng nhập vào tài khoản của bạn"
+
+#: .\myapp\templates\app\login.html:36 .\myapp\templates\app\login.html:37
+#: .\myapp\templates\app\signup.html:29
+msgid "User Name"
+msgstr "Tên người dùng"
+
+#: .\myapp\templates\app\login.html:41 .\myapp\templates\app\login.html:42
+#: .\myapp\templates\app\reset.html:33 .\myapp\templates\app\signup.html:45
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: .\myapp\templates\app\login.html:46
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: .\myapp\templates\app\login.html:49
+msgid "Forgot password?"
+msgstr "Quên mật khẩu?"
+
+#: .\myapp\templates\app\login.html:50
+msgid "Don't have an account?"
+msgstr "Bạn chưa có tài khoản?"
+
+#: .\myapp\templates\app\login.html:51
+msgid "Register here"
+msgstr "Đăng ký tại đây"
+
+#: .\myapp\templates\app\otpverify.html:50
+msgid "Please check your email"
+msgstr "Vui lòng kiểm tra email của bạn"
+
+#: .\myapp\templates\app\otpverify.html:51
+#, python-format
+msgid "We've sent a code to %(user.email)s"
+msgstr "Chúng tôi đã gửi một mã tới %(user.email)s"
+
+#: .\myapp\templates\app\otpverify.html:69
+msgid "Didn't get the code?"
+msgstr "Không nhận được mã?"
+
+#: .\myapp\templates\app\otpverify.html:69
+msgid "Click to resend."
+msgstr "Nhấp để gửi lại."
+
+#: .\myapp\templates\app\otpverify.html:73
+msgid "Cancel"
+msgstr "Hủy"
+
+#: .\myapp\templates\app\otpverify.html:76
+msgid "Verify"
+msgstr "Xác nhận"
+
+#: .\myapp\templates\app\payment.html:11
+msgid "Send an email with a photo of successful payment to upgrade account"
+msgstr ""
+"Gửi email kèm theo ảnh xác nhận thanh toán thành công để nâng cấp tài khoản"
+
+#: .\myapp\templates\app\payment.html:12
+msgid "Send Email"
+msgstr "Gửi Email"
+
+#: .\myapp\templates\app\profile.html:21
+#, fuzzy
+#| msgid "Introduction"
+msgid "Information"
+msgstr "Giới Thiệu"
+
+#: .\myapp\templates\app\profile.html:25 .\myapp\templates\app\reset.html:29
+#, fuzzy
+#| msgid "User Name"
+msgid "User name"
+msgstr "Tên người dùng"
+
+#: .\myapp\templates\app\profile.html:29
+#, fuzzy
+#| msgid "Send Email"
+msgid "Email"
+msgstr "Gửi Email"
+
+#: .\myapp\templates\app\profile.html:36
+msgid "Account status"
+msgstr "Trạng thái tài khoản"
+
+#: .\myapp\templates\app\profile.html:40
+msgid "Payment"
+msgstr "Thanh toán"
+
+#: .\myapp\templates\app\signup.html:37
+msgid "Your Email"
+msgstr "Email của bạn"
+
+#: .\myapp\templates\app\signup.html:66
+msgid "You already have an account?"
+msgstr "Bạn đã có tài khoản?"
+
+#: .\myapp\templates\app\signup.html:85
+msgid "Sample image"
+msgstr "Hình ảnh mẫu"
+
+#: .\myapp\templates\app\subscription.html:48
+msgid "Basic"
+msgstr "Cơ bản"
+
+#: .\myapp\templates\app\subscription.html:53
+msgid "Within one month"
+msgstr "Trong vòng một tháng"
+
+#: .\myapp\templates\app\subscription.html:58
+#: .\myapp\templates\app\subscription.html:89
+#: .\myapp\templates\app\subscription.html:120
+msgid "No Ads"
+msgstr "Không quảng cáo"
+
+#: .\myapp\templates\app\subscription.html:61
+msgid "4 AI Image Generators"
+msgstr "4 Máy tạo hình ảnh trí tuệ nhân tạo"
+
+#: .\myapp\templates\app\subscription.html:64
+#: .\myapp\templates\app\subscription.html:95
+#: .\myapp\templates\app\subscription.html:126
+msgid "High Resolution Image"
+msgstr "Hình ảnh độ phân giải cao"
+
+#: .\myapp\templates\app\subscription.html:70
+#: .\myapp\templates\app\subscription.html:101
+#: .\myapp\templates\app\subscription.html:132
+msgid "Select"
+msgstr "Chọn"
+
+#: .\myapp\templates\app\subscription.html:79
+msgid "Standard"
+msgstr "Tiêu chuẩn"
+
+#: .\myapp\templates\app\subscription.html:84
+msgid "Within half a year"
+msgstr "Trong vòng nửa năm"
+
+#: .\myapp\templates\app\subscription.html:92
+msgid "6 AI Image Generators"
+msgstr "6 Máy tạo hình ảnh trí tuệ nhân tạo"
+
+#: .\myapp\templates\app\subscription.html:110
+msgid "Premium"
+msgstr "Cao cấp"
+
+#: .\myapp\templates\app\subscription.html:115
+msgid "Within one year"
+msgstr "Trong vòng một năm"
+
+#: .\myapp\templates\app\subscription.html:123
+msgid "8 AI Image Generators"
+msgstr "8 Máy tạo hình ảnh trí tuệ nhân tạo"
+
+#: .\myproject\settings.py:144
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: .\myproject\settings.py:145
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
+
+#~ msgid "Only"
+#~ msgstr "Chỉ"
+
+#, fuzzy
+#~| msgid "Sign up"
+#~ msgid "Sign in"
+#~ msgstr "Đăng kí"

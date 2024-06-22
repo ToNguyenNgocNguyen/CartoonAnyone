@@ -1,0 +1,17 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% load i18n %}
+{% block payment-content %}
+<img src="{% static image_url %}" class="img-fluid mx-auto d-block">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center text-white">
+                <br>
+                <p>{% blocktrans %}Send an email with a photo of successful payment to upgrade account{% endblocktrans %}</p>
+                <a href="mailto:nguyennek147@gmail.com" class="btn btn-outline-primary btn-lg btn-block">{% blocktrans %}Send Email{% endblocktrans %}</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock payment-content %}

@@ -1,0 +1,109 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% load i18n %}
+{% block banner_slider %}
+<div id="carouselExampleDark" class="carousel carousel-dark slide px-2 mt-1" data-bs-ride="carousel">
+    <div class="carousel-inner rounded-4">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="{% static "images/banners/banner1.jpg" %}" class="d-block w-100 img-fluid" alt="Banner1">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="{% static "images/banners/banner2.jpg" %}" class="d-block w-100 img-fluid" alt="Banner2">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "images/banners/banner3.jpg" %}" class="d-block w-100 img-fluid" alt="Banner3">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "images/banners/banner4.jpg" %}" class="d-block w-100 img-fluid" alt="Banner4">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">{% blocktrans %}Previous{% endblocktrans %}</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">{% blocktrans %}Next{% endblocktrans %}</span>
+    </button>
+  </div>
+{% endblock banner_slider %}
+{% block main-content %}
+<div class="container p-4 text-white" id="Introduction"></br></br>
+  <h1>Cartoon Anyone</h1>
+  <p>{% blocktrans %}"Cartoon Anyone" redefines the art of cartoon creation with its innovative features and intuitive interface. 
+    This revolutionary app empowers users of all skill levels to effortlessly transform ordinary photos into 
+    captivating cartoons. Dive into a world of endless possibilities as you explore a wide range of customization 
+    options, from adjusting colors and styles to adding whimsical effects. With a vast selection of cartoon 
+    filters at your fingertips, you can give your artwork a unique and personal touch. The animation studio 
+    feature allows you to breathe life into your characters and scenes, making your cartoons truly come alive. 
+    Whether you're a seasoned illustrator or a casual doodler, "Cartoon Anyone" provides a seamless and enjoyable 
+    cartooning experience. Share your creations with friends, family, or the vibrant "Cartoon Anyone" community, 
+    or collaborate on projects in real-time. With its seamless sharing options and robust collaboration features, 
+    "Cartoon Anyone" is not just an app – it's a creative hub where artists and enthusiasts come together to 
+    unleash their imagination and showcase their talent.{% endblocktrans %}</p>
+</div>
+
+<div class="container px-5 grid gap-0 row-gap-3 ">
+  <img src="{% static "images/demo.jpg" %}" class="img-fluid p-2 g-col-6" width="600" alt="Cinque Terre">
+  <img src="{% static "images/demo1.jpg" %}" class="img-fluid p-2 g-col-6" width="600" alt="Cinque Terre">
+</div>
+
+<div class="container p-4 text-white" id="Personal"></br></br>
+  <h1>{% blocktrans %}For Personal{% endblocktrans %}</h1>
+  <p>{% blocktrans %}Our pricing plans for personal use are tailored to meet your individual needs. Whether you're a student, 
+    freelancer, or simply managing your personal projects, we have flexible pricing options to suit you.</br></br>
+    Features Include:{% endblocktrans %}
+    <ul>
+      <li>{% blocktrans %}Affordable Pricing: Enjoy competitive pricing plans designed for individuals.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Customization: Choose from a range of packages to fit your budget and requirements.{% endblocktrans %}</li>
+      <li>{% blocktrans %}No Hidden Fees: Transparent pricing with no surprises.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Scalability: Upgrade or downgrade your plan as needed, giving you the flexibility to adjust based on your usage.{% endblocktrans %}</li>
+      <li>{% blocktrans %}24/7 Support: Access to our dedicated support team whenever you need assistance.{% endblocktrans %}</li>
+    </ul>
+    {% blocktrans %}With our personal use pricing, you can access all the tools and resources you need to succeed without breaking the bank. 
+    Get started today and take control of your personal projects with ease.{% endblocktrans %}
+  </p>
+</div>
+
+<div class="container p-4 text-white" id="Business"></br></br>
+  <h1>{% blocktrans %}For Business{% endblocktrans %}</h1>
+  <p>{% blocktrans %}Our business pricing plans are designed to empower organizations of all sizes with the tools they need to thrive. Whether 
+    you're a small startup or a large enterprise, we offer flexible pricing options to support your business goals.</br></br>
+    Features Include:{% endblocktrans %}
+    <ul>
+      <li>{% blocktrans %}Scalable Solutions: Choose from a range of scalable plans that grow with your business.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Advanced Features: Access to advanced features tailored for business users, such as team collaboration, analytics, and priority support.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Customization: Customize your plan to match your specific requirements and budget constraints.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Dedicated Support: Benefit from dedicated account managers and priority support channels to ensure your business receives the assistance it needs.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Security and Compliance: Industry-leading security measures and compliance standards to protect your sensitive data and meet regulatory requirements.{% endblocktrans %}</li>
+    </ul>
+    {% blocktrans %}With our personal use pricing, you can access all the tools and resources you need to succeed without breaking the bank. 
+    Get started today and take control of your personal projects with ease.{% endblocktrans %}
+  </p>
+</div>
+
+<div class="container p-4 text-white" id="About"></br></br>
+  <h1>{% blocktrans %}About us{% endblocktrans %}</h1>
+  <p>{% blocktrans %}Our business pricing plans are designed to empower organizations of all sizes with the tools they need to thrive. Whether 
+    you're a small startup or a large enterprise, we offer flexible pricing options to support your business goals.</br></br>
+    Features Include:{% endblocktrans %}
+    <ul>
+      <li>{% blocktrans %}Scalable Solutions: Choose from a range of scalable plans that grow with your business.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Advanced Features: Access to advanced features tailored for business users, such as team collaboration, analytics, and priority support.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Customization: Customize your plan to match your specific requirements and budget constraints.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Dedicated Support: Benefit from dedicated account managers and priority support channels to ensure your business receives the assistance it needs.{% endblocktrans %}</li>
+      <li>{% blocktrans %}Security and Compliance: Industry-leading security measures and compliance standards to protect your sensitive data and meet regulatory requirements.{% endblocktrans %}</li>
+    </ul>
+    {% blocktrans %}With our personal use pricing, you can access all the tools and resources you need to succeed without breaking the bank. 
+    Get started today and take control of your personal projects with ease.{% endblocktrans %}
+  </p>
+</div>
+{% endblock main-content %}

@@ -1,0 +1,26 @@
+.fa-facebook {
+    color: #a7b1c9; /* Default Facebook blue */
+    transition: color 0.3s ease;
+}
+
+.fa-facebook:hover {
+    color: #3565cb; /* Lightened Facebook blue */
+}
+
+.fa-youtube {
+    color: #e08181; /* Default Facebook blue */
+    transition: color 0.3s ease;
+}
+
+.fa-youtube:hover {
+    color: #db1f1f; /* Lightened Facebook blue */
+}
+
+.fa-instagram {
+    color: #e996e3; /* Default Facebook blue */
+    transition: color 0.3s ease;
+}
+
+.fa-instagram:hover {
+    color: #a73296; /* Lightened Facebook blue */
+}
