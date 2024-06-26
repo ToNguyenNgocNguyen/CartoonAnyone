@@ -24,6 +24,7 @@ coverage.xml
 .env
 00*
 staticfiles
+.github
 
 # SQLite database
 db.sqlite3
