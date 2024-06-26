@@ -24,23 +24,3 @@
 .fa-instagram:hover {
     color: #a73296; /* Lightened Facebook blue */
 }
-
-.login-logo h1 picture img {
-    border-radius: 50%;
-    display: block; /* Ensures the border-radius is applied correctly */
-    width: 500px; /* Adjust the width to your preference */
-    height: 500px; /* Adjust the height to your preference */
-    object-fit: cover; /* Ensures the image covers the circular space */
-}
-
-.chrt_flex {
-    padding-left: 100px; /* Adjust the value as needed */
-    padding-right: 20px; /* Adjust the value as needed */
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: initial;
-}
