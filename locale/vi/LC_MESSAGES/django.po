@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-22 23:01+0700\n"
+"POT-Creation-Date: 2024-06-26 11:24+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,48 +18,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .\myapp\templates\app\base.html:38
+#: .\myapp\templates\app\base.html:39
 msgid "Home"
 msgstr "Trang Chủ"
 
-#: .\myapp\templates\app\base.html:41
+#: .\myapp\templates\app\base.html:42
 msgid "Introduction"
 msgstr "Giới Thiệu"
 
-#: .\myapp\templates\app\base.html:44
+#: .\myapp\templates\app\base.html:45
 msgid "Features"
 msgstr "Tính Năng"
 
-#: .\myapp\templates\app\base.html:47 .\myapp\templates\app\home.html:94
+#: .\myapp\templates\app\base.html:48 .\myapp\templates\app\home.html:113
 msgid "About us"
 msgstr "Về Chúng Tôi"
 
-#: .\myapp\templates\app\base.html:50
+#: .\myapp\templates\app\base.html:51
 msgid "Subscription"
 msgstr "Đăng Kí"
 
-#: .\myapp\templates\app\base.html:79
+#: .\myapp\templates\app\base.html:80
 msgid "Start App"
 msgstr "Khởi Động App"
 
-#: .\myapp\templates\app\base.html:87
+#: .\myapp\templates\app\base.html:88
 msgid "Profile"
 msgstr "Trang cá nhân"
 
-#: .\myapp\templates\app\base.html:88
+#: .\myapp\templates\app\base.html:89
 msgid "Log out"
 msgstr "Thoát"
 
-#: .\myapp\templates\app\base.html:93 .\myapp\templates\app\forgot.html:33
+#: .\myapp\templates\app\base.html:94 .\myapp\templates\app\forgot.html:33
 #: .\myapp\templates\app\reset.html:48 .\myapp\templates\app\signup.html:66
 msgid "Log in"
 msgstr "Đăng nhập"
 
-#: .\myapp\templates\app\base.html:96 .\myapp\templates\app\signup.html:22
+#: .\myapp\templates\app\base.html:97 .\myapp\templates\app\signup.html:22
 msgid "Sign up"
 msgstr "Đăng kí"
 
-#: .\myapp\templates\app\base.html:131
+#: .\myapp\templates\app\base.html:132
 msgid "Copyright ⓒ 2024 WibuUnited. All rights reserved."
 msgstr "Bản quyền ⓒ 2024 WibuUnited. Đã đăng ký Bản quyền."
 
@@ -148,33 +148,35 @@ msgid ""
 "Our pricing plans for personal use are tailored to meet your individual "
 "needs. Whether you're a student, \n"
 "    freelancer, or simply managing your personal projects, we have flexible "
-"pricing options to suit you.</br></br>\n"
-"    Features Include:"
+"pricing options to suit you.<br><br>"
 msgstr ""
 "Các gói giá của chúng tôi cho sử dụng cá nhân được thiết kế để đáp ứng nhu "
 "cầu của từng cá nhân. Cho dù bạn là sinh viên, \n"
 "    người làm việc tự do, hoặc chỉ đang quản lý các dự án cá nhân của mình, "
-"chúng tôi có các tùy chọn giá linh hoạt phù hợp với bạn.</br></br>\n"
-"    Bao gồm các tính năng:"
+"chúng tôi có các tùy chọn giá linh hoạt phù hợp với bạn.</br></br>"
 
-#: .\myapp\templates\app\home.html:65
+#: .\myapp\templates\app\home.html:71 .\myapp\templates\app\home.html:93
+msgid "Features Include:"
+msgstr "Tính năng bao gồm:"
+
+#: .\myapp\templates\app\home.html:73
 msgid ""
 "Affordable Pricing: Enjoy competitive pricing plans designed for individuals."
 msgstr ""
 "Giá Cả Hợp Lý: Tận hưởng các gói giá cạnh tranh được thiết kế cho cá nhân."
 
-#: .\myapp\templates\app\home.html:66
+#: .\myapp\templates\app\home.html:74
 msgid ""
 "Customization: Choose from a range of packages to fit your budget and "
 "requirements."
 msgstr ""
 "Tùy Biến: Chọn từ nhiều gói để phù hợp với ngân sách và yêu cầu của bạn."
 
-#: .\myapp\templates\app\home.html:67
+#: .\myapp\templates\app\home.html:75
 msgid "No Hidden Fees: Transparent pricing with no surprises."
 msgstr "Không Có Phí Ẩn: Giá cả minh bạch không có bất ngờ."
 
-#: .\myapp\templates\app\home.html:68
+#: .\myapp\templates\app\home.html:76
 msgid ""
 "Scalability: Upgrade or downgrade your plan as needed, giving you the "
 "flexibility to adjust based on your usage."
@@ -182,7 +184,7 @@ msgstr ""
 "Khả Năng Mở Rộng: Nâng cấp hoặc hạ cấp gói của bạn khi cần thiết, cho bạn sự "
 "linh hoạt để điều chỉnh dựa trên mức sử dụng."
 
-#: .\myapp\templates\app\home.html:69
+#: .\myapp\templates\app\home.html:77
 msgid ""
 "24/7 Support: Access to our dedicated support team whenever you need "
 "assistance."
@@ -190,37 +192,23 @@ msgstr ""
 "Hỗ Trợ 24/7: Truy cập đội ngũ hỗ trợ tận tâm của chúng tôi bất cứ khi nào "
 "bạn cần trợ giúp."
 
-#: .\myapp\templates\app\home.html:71 .\myapp\templates\app\home.html:88
-#: .\myapp\templates\app\home.html:105
-msgid ""
-"With our personal use pricing, you can access all the tools and resources "
-"you need to succeed without breaking the bank. \n"
-"    Get started today and take control of your personal projects with ease."
-msgstr ""
-"Với giá cả sử dụng cá nhân của chúng tôi, bạn có thể truy cập tất cả các "
-"công cụ và tài nguyên bạn cần để thành công mà không phá vỡ ngân sách. \n"
-"    Bắt đầu ngay hôm nay và kiểm soát các dự án cá nhân của bạn một cách dễ "
-"dàng."
-
-#: .\myapp\templates\app\home.html:77
+#: .\myapp\templates\app\home.html:86
 msgid "For Business"
 msgstr "Dành Cho Doanh Nghiệp"
 
-#: .\myapp\templates\app\home.html:78 .\myapp\templates\app\home.html:95
+#: .\myapp\templates\app\home.html:87
 msgid ""
 "Our business pricing plans are designed to empower organizations of all "
 "sizes with the tools they need to thrive. Whether \n"
 "    you're a small startup or a large enterprise, we offer flexible pricing "
-"options to support your business goals.</br></br>\n"
-"    Features Include:"
+"options to support your business goals.</br></br>"
 msgstr ""
-"Kế hoạch giá của chúng tôi dành cho doanh nghiệp được thiết kế để trang bị "
-"cho các tổ chức với các công cụ cần thiết để phát triển. Dù bạn là một công "
-"ty khởi nghiệp nhỏ hoặc một doanh nghiệp lớn, chúng tôi cung cấp các tùy "
-"chọn giá cả linh hoạt để hỗ trợ mục tiêu kinh doanh của bạn.</br></br>\n"
-"    Bao gồm các tính năng:"
+"Kế hoạch giá cả của chúng tôi được thiết kế để trang bị cho các tổ chức có "
+"mọi quy mô với các công cụ cần thiết để phát triển. Cho dù\n"
+"    bạn là một startup nhỏ hay một doanh nghiệp lớn, chúng tôi cung cấp các "
+"lựa chọn giá cả linh hoạt để hỗ trợ mục tiêu kinh doanh của bạn.</br></br>"
 
-#: .\myapp\templates\app\home.html:82 .\myapp\templates\app\home.html:99
+#: .\myapp\templates\app\home.html:95
 msgid ""
 "Scalable Solutions: Choose from a range of scalable plans that grow with "
 "your business."
@@ -228,7 +216,7 @@ msgstr ""
 "Giải pháp có thể mở rộng: Chọn từ một loạt các kế hoạch có thể mở rộng phù "
 "hợp với sự phát triển của doanh nghiệp của bạn."
 
-#: .\myapp\templates\app\home.html:83 .\myapp\templates\app\home.html:100
+#: .\myapp\templates\app\home.html:96
 msgid ""
 "Advanced Features: Access to advanced features tailored for business users, "
 "such as team collaboration, analytics, and priority support."
@@ -236,7 +224,7 @@ msgstr ""
 "Tính năng tiên tiến: Truy cập vào các tính năng tiên tiến được tùy chỉnh cho "
 "người dùng doanh nghiệp, như hợp tác nhóm, phân tích và hỗ trợ ưu tiên."
 
-#: .\myapp\templates\app\home.html:84 .\myapp\templates\app\home.html:101
+#: .\myapp\templates\app\home.html:97
 msgid ""
 "Customization: Customize your plan to match your specific requirements and "
 "budget constraints."
@@ -244,7 +232,7 @@ msgstr ""
 "Tùy chỉnh: Tùy chỉnh kế hoạch của bạn để phù hợp với các yêu cầu cụ thể và "
 "hạn chế về ngân sách."
 
-#: .\myapp\templates\app\home.html:85 .\myapp\templates\app\home.html:102
+#: .\myapp\templates\app\home.html:98
 msgid ""
 "Dedicated Support: Benefit from dedicated account managers and priority "
 "support channels to ensure your business receives the assistance it needs."
@@ -252,13 +240,61 @@ msgstr ""
 "Hỗ trợ dành riêng: Hưởng lợi từ các quản lý tài khoản dành riêng và các kênh "
 "hỗ trợ ưu tiên để đảm bảo doanh nghiệp của bạn nhận được sự hỗ trợ cần thiết."
 
-#: .\myapp\templates\app\home.html:86 .\myapp\templates\app\home.html:103
+#: .\myapp\templates\app\home.html:99
 msgid ""
 "Security and Compliance: Industry-leading security measures and compliance "
 "standards to protect your sensitive data and meet regulatory requirements."
 msgstr ""
 "Bảo mật và Tuân thủ: Các biện pháp bảo mật hàng đầu ngành và các tiêu chuẩn "
 "tuân thủ để bảo vệ dữ liệu nhạy cảm của bạn và đáp ứng yêu cầu quy định."
+
+#: .\myapp\templates\app\home.html:258
+msgid ""
+"Welcome to Wibu United, which brings you a unique experience of the anime "
+"world \n"
+"    through advanced image conversion technology. We are proud to be a team "
+"of developers \n"
+"    and lovers of anime art, committed to bringing the community creative "
+"and exciting moments. \n"
+"    Wibu United's mission is to connect the anime-loving community, helping "
+"people express their passion \n"
+"    and creativity through the art of photo conversion. We encourage "
+"everyone to explore and enjoy \n"
+"    the diverse beauty of anime, from unique photos to profound memories. We "
+"are proud to be part of \n"
+"    the vibrant anime community and always create exciting events and "
+"competitions to promote creativity \n"
+"    and connection among members. Through that, we hope each individual can "
+"shine and share their love \n"
+"    for anime with Wibu United. We always appreciate any input from the "
+"community. If you have any \n"
+"    questions, suggestions or want to share with us, please contact us via "
+"the information channels \n"
+"    provided. Your feedback is an important motivation to help us improve "
+"and serve better."
+msgstr ""
+"Chào mừng bạn đến với Wibu United, nơi mang đến cho bạn một trải nghiệm độc "
+"đáo về thế giới anime\n"
+"    thông qua công nghệ chuyển đổi hình ảnh tiên tiến. Chúng tôi tự hào là "
+"một đội ngũ các nhà phát triển\n"
+"    và người yêu nghệ thuật anime, cam kết mang đến cho cộng đồng những giây "
+"phút sáng tạo và hứng thú.\n"
+"    Sứ mệnh của Wibu United là kết nối cộng đồng yêu thích anime, giúp mọi "
+"người thể hiện đam mê\n"
+"    và sáng tạo thông qua nghệ thuật chuyển đổi ảnh. Chúng tôi khuyến khích "
+"mọi người khám phá và tận hưởng\n"
+"    vẻ đẹp đa dạng của anime, từ những bức ảnh độc đáo đến những kỷ niệm sâu "
+"sắc. Chúng tôi tự hào là một phần của\n"
+"    cộng đồng anime sôi động và luôn tổ chức các sự kiện và cuộc thi thú vị "
+"để thúc đẩy sự sáng tạo\n"
+"    và kết nối giữa các thành viên. Qua đó, chúng tôi hy vọng mỗi cá nhân có "
+"thể tỏa sáng và chia sẻ tình yêu\n"
+"    dành cho anime cùng với Wibu United. Chúng tôi luôn đánh giá cao mọi "
+"đóng góp từ cộng đồng. Nếu bạn có\n"
+"    câu hỏi, đề xuất hoặc muốn chia sẻ với chúng tôi, vui lòng liên hệ qua "
+"các kênh thông tin\n"
+"    được cung cấp. Phản hồi của bạn là động lực quan trọng để giúp chúng tôi "
+"cải tiến và phục vụ tốt hơn."
 
 #: .\myapp\templates\app\login.html:21
 msgid "login form"
@@ -298,28 +334,28 @@ msgstr "Bạn chưa có tài khoản?"
 msgid "Register here"
 msgstr "Đăng ký tại đây"
 
-#: .\myapp\templates\app\otpverify.html:50
+#: .\myapp\templates\app\otpverify.html:51
 msgid "Please check your email"
 msgstr "Vui lòng kiểm tra email của bạn"
 
-#: .\myapp\templates\app\otpverify.html:51
+#: .\myapp\templates\app\otpverify.html:52
 #, python-format
 msgid "We've sent a code to %(user.email)s"
 msgstr "Chúng tôi đã gửi một mã tới %(user.email)s"
 
-#: .\myapp\templates\app\otpverify.html:69
+#: .\myapp\templates\app\otpverify.html:70
 msgid "Didn't get the code?"
 msgstr "Không nhận được mã?"
 
-#: .\myapp\templates\app\otpverify.html:69
+#: .\myapp\templates\app\otpverify.html:70
 msgid "Click to resend."
 msgstr "Nhấp để gửi lại."
 
-#: .\myapp\templates\app\otpverify.html:73
+#: .\myapp\templates\app\otpverify.html:74
 msgid "Cancel"
 msgstr "Hủy"
 
-#: .\myapp\templates\app\otpverify.html:76
+#: .\myapp\templates\app\otpverify.html:77
 msgid "Verify"
 msgstr "Xác nhận"
 
@@ -424,11 +460,11 @@ msgstr "Trong vòng một năm"
 msgid "8 AI Image Generators"
 msgstr "8 Máy tạo hình ảnh trí tuệ nhân tạo"
 
-#: .\myproject\settings.py:144
+#: .\myproject\settings.py:149
 msgid "English"
 msgstr "Tiếng Anh"
 
-#: .\myproject\settings.py:145
+#: .\myproject\settings.py:150
 msgid "Vietnamese"
 msgstr "Tiếng Việt"
 

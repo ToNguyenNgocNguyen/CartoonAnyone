@@ -11,7 +11,7 @@ class CustomerUser(AbstractUser):
         ('Premium', 'Premium'),
     ]
     # Add any additional fields you want to include
-    mometary = models.IntegerField(default=0, blank=True, null=True)
+    monetary = models.IntegerField(default=0, blank=True, null=True)
     type_user = models.CharField(max_length=10, choices=USER_TYPE_CHOICES, default='Normal', blank=True, null=True)
 
     def __str__(self):

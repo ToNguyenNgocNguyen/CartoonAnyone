@@ -36,7 +36,7 @@
   </div>
 {% endblock banner_slider %}
 {% block main-content %}
-<div class="container p-4 text-white" id="Introduction"></br></br>
+<div class="container p-5 text-white" id="Introduction"></br></br>
   <h1>Cartoon Anyone</h1>
   <p>{% blocktrans %}"Cartoon Anyone" redefines the art of cartoon creation with its innovative features and intuitive interface. 
     This revolutionary app empowers users of all skill levels to effortlessly transform ordinary photos into 
@@ -56,54 +56,215 @@
   <img src="{% static "images/demo1.jpg" %}" class="img-fluid p-2 g-col-6" width="600" alt="Cinque Terre">
 </div>
 
-<div class="container p-4 text-white" id="Personal"></br></br>
+<div class="container p-5 mt-5 text-white">
   <h1>{% blocktrans %}For Personal{% endblocktrans %}</h1>
   <p>{% blocktrans %}Our pricing plans for personal use are tailored to meet your individual needs. Whether you're a student, 
-    freelancer, or simply managing your personal projects, we have flexible pricing options to suit you.</br></br>
-    Features Include:{% endblocktrans %}
-    <ul>
-      <li>{% blocktrans %}Affordable Pricing: Enjoy competitive pricing plans designed for individuals.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Customization: Choose from a range of packages to fit your budget and requirements.{% endblocktrans %}</li>
-      <li>{% blocktrans %}No Hidden Fees: Transparent pricing with no surprises.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Scalability: Upgrade or downgrade your plan as needed, giving you the flexibility to adjust based on your usage.{% endblocktrans %}</li>
-      <li>{% blocktrans %}24/7 Support: Access to our dedicated support team whenever you need assistance.{% endblocktrans %}</li>
-    </ul>
-    {% blocktrans %}With our personal use pricing, you can access all the tools and resources you need to succeed without breaking the bank. 
-    Get started today and take control of your personal projects with ease.{% endblocktrans %}
-  </p>
+    freelancer, or simply managing your personal projects, we have flexible pricing options to suit you.<br><br>{% endblocktrans %}</p>
+    <div class="row">
+      <!-- Image on the left -->
+      <div class="col-md-6 mt-2">
+        <img src="{% static 'images/demo2.jpg' %}" class="img-fluid p-2" width="600" alt="Cinque Terre">
+      </div>
+      <!-- Text on the right -->
+      <div class="col-md-6 mt-1" id="Personal">
+        <br><br>
+        {% blocktrans %}Features Include:{% endblocktrans %}
+        <ul>
+          <li>{% blocktrans %}Affordable Pricing: Enjoy competitive pricing plans designed for individuals.{% endblocktrans %}</li>
+          <li>{% blocktrans %}Customization: Choose from a range of packages to fit your budget and requirements.{% endblocktrans %}</li>
+          <li>{% blocktrans %}No Hidden Fees: Transparent pricing with no surprises.{% endblocktrans %}</li>
+          <li>{% blocktrans %}Scalability: Upgrade or downgrade your plan as needed, giving you the flexibility to adjust based on your usage.{% endblocktrans %}</li>
+          <li>{% blocktrans %}24/7 Support: Access to our dedicated support team whenever you need assistance.{% endblocktrans %}</li>
+        </ul>
+      </div>
+    </div>
 </div>
 
-<div class="container p-4 text-white" id="Business"></br></br>
+<div class="container p-5 mt-5 text-white" id="Business">
   <h1>{% blocktrans %}For Business{% endblocktrans %}</h1>
   <p>{% blocktrans %}Our business pricing plans are designed to empower organizations of all sizes with the tools they need to thrive. Whether 
-    you're a small startup or a large enterprise, we offer flexible pricing options to support your business goals.</br></br>
-    Features Include:{% endblocktrans %}
-    <ul>
-      <li>{% blocktrans %}Scalable Solutions: Choose from a range of scalable plans that grow with your business.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Advanced Features: Access to advanced features tailored for business users, such as team collaboration, analytics, and priority support.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Customization: Customize your plan to match your specific requirements and budget constraints.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Dedicated Support: Benefit from dedicated account managers and priority support channels to ensure your business receives the assistance it needs.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Security and Compliance: Industry-leading security measures and compliance standards to protect your sensitive data and meet regulatory requirements.{% endblocktrans %}</li>
-    </ul>
-    {% blocktrans %}With our personal use pricing, you can access all the tools and resources you need to succeed without breaking the bank. 
-    Get started today and take control of your personal projects with ease.{% endblocktrans %}
+    you're a small startup or a large enterprise, we offer flexible pricing options to support your business goals.</br></br>{% endblocktrans %}</p>
+    <div class="row">
+      <!-- Text on the left -->
+      <div class="col-md-6 mt-1">
+        <br><br>
+        {% blocktrans %}Features Include:{% endblocktrans %}
+        <ul>
+          <li>{% blocktrans %}Scalable Solutions: Choose from a range of scalable plans that grow with your business.{% endblocktrans %}</li>
+          <li>{% blocktrans %}Advanced Features: Access to advanced features tailored for business users, such as team collaboration, analytics, and priority support.{% endblocktrans %}</li>
+          <li>{% blocktrans %}Customization: Customize your plan to match your specific requirements and budget constraints.{% endblocktrans %}</li>
+          <li>{% blocktrans %}Dedicated Support: Benefit from dedicated account managers and priority support channels to ensure your business receives the assistance it needs.{% endblocktrans %}</li>
+          <li>{% blocktrans %}Security and Compliance: Industry-leading security measures and compliance standards to protect your sensitive data and meet regulatory requirements.{% endblocktrans %}</li>
+        </ul>
+      </div>
+      <!-- Image on the right -->
+      <div class="col-md-6 mt-2">
+        <img src="{% static 'images/demo3.jpg' %}" class="img-fluid p-2" width="600" alt="Cinque Terre">
+      </div>
+    </div>
+</div>
+
+
+<div class="container p-5 text-white" id="About"></br></br>
+  <h1>{% blocktrans %}About us{% endblocktrans %}</h1>
+  <!-- Carousel wrapper -->
+  <div
+  id="carouselMultiItemExample"
+  data-mdb-carousel-init class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+  >
+  <!-- Controls -->
+  <div class="d-flex justify-content-center mb-4">
+    <button data-mdb-button-init
+      class="carousel-control-prev position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button data-mdb-button-init
+      class="carousel-control-next position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+                class="card-img-top"
+                alt="Storm Clouds"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+                class="card-img-top"
+                alt="Hot Air Balloons"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
+                class="card-img-top"
+                alt="Peaks Against the Starry Sky"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
+                class="card-img-top"
+                alt="Bridge Over Water"
+              />
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
+                class="card-img-top"
+                alt="Purbeck Heritage Coast"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+  </div>
+  <!-- Carousel wrapper -->
+  <p>{% blocktrans %}Welcome to Wibu United, which brings you a unique experience of the anime world 
+    through advanced image conversion technology. We are proud to be a team of developers 
+    and lovers of anime art, committed to bringing the community creative and exciting moments. 
+    Wibu United's mission is to connect the anime-loving community, helping people express their passion 
+    and creativity through the art of photo conversion. We encourage everyone to explore and enjoy 
+    the diverse beauty of anime, from unique photos to profound memories. We are proud to be part of 
+    the vibrant anime community and always create exciting events and competitions to promote creativity 
+    and connection among members. Through that, we hope each individual can shine and share their love 
+    for anime with Wibu United. We always appreciate any input from the community. If you have any 
+    questions, suggestions or want to share with us, please contact us via the information channels 
+    provided. Your feedback is an important motivation to help us improve and serve better.{% endblocktrans %}
   </p>
 </div>
 
-<div class="container p-4 text-white" id="About"></br></br>
-  <h1>{% blocktrans %}About us{% endblocktrans %}</h1>
-  <p>{% blocktrans %}Our business pricing plans are designed to empower organizations of all sizes with the tools they need to thrive. Whether 
-    you're a small startup or a large enterprise, we offer flexible pricing options to support your business goals.</br></br>
-    Features Include:{% endblocktrans %}
-    <ul>
-      <li>{% blocktrans %}Scalable Solutions: Choose from a range of scalable plans that grow with your business.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Advanced Features: Access to advanced features tailored for business users, such as team collaboration, analytics, and priority support.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Customization: Customize your plan to match your specific requirements and budget constraints.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Dedicated Support: Benefit from dedicated account managers and priority support channels to ensure your business receives the assistance it needs.{% endblocktrans %}</li>
-      <li>{% blocktrans %}Security and Compliance: Industry-leading security measures and compliance standards to protect your sensitive data and meet regulatory requirements.{% endblocktrans %}</li>
-    </ul>
-    {% blocktrans %}With our personal use pricing, you can access all the tools and resources you need to succeed without breaking the bank. 
-    Get started today and take control of your personal projects with ease.{% endblocktrans %}
-  </p>
-</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
 {% endblock main-content %}
