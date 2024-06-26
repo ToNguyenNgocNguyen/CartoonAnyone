@@ -23,6 +23,8 @@ coverage.xml
 # Environment variables
 .env
 00*
+staticfiles
+
 # SQLite database
 db.sqlite3
 

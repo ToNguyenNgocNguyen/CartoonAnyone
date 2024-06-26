@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-26 11:24+0700\n"
+"POT-Creation-Date: 2024-06-26 16:11+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Giới Thiệu"
 msgid "Features"
 msgstr "Tính Năng"
 
-#: .\myapp\templates\app\base.html:48 .\myapp\templates\app\home.html:113
+#: .\myapp\templates\app\base.html:48 .\myapp\templates\app\home.html:109
 msgid "About us"
 msgstr "Về Chúng Tôi"
 
@@ -63,16 +63,17 @@ msgstr "Đăng kí"
 msgid "Copyright ⓒ 2024 WibuUnited. All rights reserved."
 msgstr "Bản quyền ⓒ 2024 WibuUnited. Đã đăng ký Bản quyền."
 
-#: .\myapp\templates\app\forgot.html:15 .\myapp\templates\app\reset.html:22
+#: .\myapp\templates\app\forgot.html:15
 msgid ""
 "Provide the email address associated with your account to recover your "
 "password."
 msgstr "Cung cấp địa chỉ email ứng với tài khoản của bạn để phục hồi mật khẩu."
 
-#: .\myapp\templates\app\forgot.html:22 .\myapp\templates\app\reset.html:37
-#: .\myapp\templates\app\signup.html:53
-msgid "Confirm Password"
-msgstr "Xác nhận mật khẩu"
+#: .\myapp\templates\app\forgot.html:22 .\myapp\templates\app\profile.html:29
+#, fuzzy
+#| msgid "Send Email"
+msgid "Email"
+msgstr "Gửi Email"
 
 #: .\myapp\templates\app\forgot.html:28 .\myapp\templates\app\reset.html:43
 #, fuzzy
@@ -155,7 +156,7 @@ msgstr ""
 "    người làm việc tự do, hoặc chỉ đang quản lý các dự án cá nhân của mình, "
 "chúng tôi có các tùy chọn giá linh hoạt phù hợp với bạn.</br></br>"
 
-#: .\myapp\templates\app\home.html:71 .\myapp\templates\app\home.html:93
+#: .\myapp\templates\app\home.html:71 .\myapp\templates\app\home.html:91
 msgid "Features Include:"
 msgstr "Tính năng bao gồm:"
 
@@ -192,11 +193,11 @@ msgstr ""
 "Hỗ Trợ 24/7: Truy cập đội ngũ hỗ trợ tận tâm của chúng tôi bất cứ khi nào "
 "bạn cần trợ giúp."
 
-#: .\myapp\templates\app\home.html:86
+#: .\myapp\templates\app\home.html:84
 msgid "For Business"
 msgstr "Dành Cho Doanh Nghiệp"
 
-#: .\myapp\templates\app\home.html:87
+#: .\myapp\templates\app\home.html:85
 msgid ""
 "Our business pricing plans are designed to empower organizations of all "
 "sizes with the tools they need to thrive. Whether \n"
@@ -208,7 +209,7 @@ msgstr ""
 "    bạn là một startup nhỏ hay một doanh nghiệp lớn, chúng tôi cung cấp các "
 "lựa chọn giá cả linh hoạt để hỗ trợ mục tiêu kinh doanh của bạn.</br></br>"
 
-#: .\myapp\templates\app\home.html:95
+#: .\myapp\templates\app\home.html:93
 msgid ""
 "Scalable Solutions: Choose from a range of scalable plans that grow with "
 "your business."
@@ -216,7 +217,7 @@ msgstr ""
 "Giải pháp có thể mở rộng: Chọn từ một loạt các kế hoạch có thể mở rộng phù "
 "hợp với sự phát triển của doanh nghiệp của bạn."
 
-#: .\myapp\templates\app\home.html:96
+#: .\myapp\templates\app\home.html:94
 msgid ""
 "Advanced Features: Access to advanced features tailored for business users, "
 "such as team collaboration, analytics, and priority support."
@@ -224,7 +225,7 @@ msgstr ""
 "Tính năng tiên tiến: Truy cập vào các tính năng tiên tiến được tùy chỉnh cho "
 "người dùng doanh nghiệp, như hợp tác nhóm, phân tích và hỗ trợ ưu tiên."
 
-#: .\myapp\templates\app\home.html:97
+#: .\myapp\templates\app\home.html:95
 msgid ""
 "Customization: Customize your plan to match your specific requirements and "
 "budget constraints."
@@ -232,7 +233,7 @@ msgstr ""
 "Tùy chỉnh: Tùy chỉnh kế hoạch của bạn để phù hợp với các yêu cầu cụ thể và "
 "hạn chế về ngân sách."
 
-#: .\myapp\templates\app\home.html:98
+#: .\myapp\templates\app\home.html:96
 msgid ""
 "Dedicated Support: Benefit from dedicated account managers and priority "
 "support channels to ensure your business receives the assistance it needs."
@@ -240,7 +241,7 @@ msgstr ""
 "Hỗ trợ dành riêng: Hưởng lợi từ các quản lý tài khoản dành riêng và các kênh "
 "hỗ trợ ưu tiên để đảm bảo doanh nghiệp của bạn nhận được sự hỗ trợ cần thiết."
 
-#: .\myapp\templates\app\home.html:99
+#: .\myapp\templates\app\home.html:97
 msgid ""
 "Security and Compliance: Industry-leading security measures and compliance "
 "standards to protect your sensitive data and meet regulatory requirements."
@@ -248,7 +249,7 @@ msgstr ""
 "Bảo mật và Tuân thủ: Các biện pháp bảo mật hàng đầu ngành và các tiêu chuẩn "
 "tuân thủ để bảo vệ dữ liệu nhạy cảm của bạn và đáp ứng yêu cầu quy định."
 
-#: .\myapp\templates\app\home.html:258
+#: .\myapp\templates\app\home.html:254
 msgid ""
 "Welcome to Wibu United, which brings you a unique experience of the anime "
 "world \n"
@@ -380,12 +381,6 @@ msgstr "Giới Thiệu"
 msgid "User name"
 msgstr "Tên người dùng"
 
-#: .\myapp\templates\app\profile.html:29
-#, fuzzy
-#| msgid "Send Email"
-msgid "Email"
-msgstr "Gửi Email"
-
 #: .\myapp\templates\app\profile.html:36
 msgid "Account status"
 msgstr "Trạng thái tài khoản"
@@ -393,6 +388,15 @@ msgstr "Trạng thái tài khoản"
 #: .\myapp\templates\app\profile.html:40
 msgid "Payment"
 msgstr "Thanh toán"
+
+#: .\myapp\templates\app\reset.html:22
+msgid ""
+"Provide the User name associated with your account to recover your password."
+msgstr "Cung cấp địa chỉ email ứng với tài khoản của bạn để phục hồi mật khẩu."
+
+#: .\myapp\templates\app\reset.html:37 .\myapp\templates\app\signup.html:53
+msgid "Confirm Password"
+msgstr "Xác nhận mật khẩu"
 
 #: .\myapp\templates\app\signup.html:37
 msgid "Your Email"

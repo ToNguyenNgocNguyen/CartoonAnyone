@@ -12,6 +12,6 @@ urlpatterns = [
     path('startapp/', views.get_startapp, name='startapp'),
     path('otpverify/', views.otp_verify, name='otpverify'),
     path('resend/', views.resend_otp, name='resendotp'),
-    path('reset/', views.get_forgot, name='forgot'),
-    path('password/', views.get_reset, name='reset')
+    path('forgot/', views.get_forgot, name='forgot'),
+    path('reset/', views.get_reset, name='reset')
 ]

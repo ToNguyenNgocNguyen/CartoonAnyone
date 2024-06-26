@@ -167,6 +167,7 @@ def get_forgot(request):
         return redirect('otpverify')
     return render(request, "app/forgot.html", context)
 
+
 def get_reset(request):
     context = {}
     if request.method == "POST":    
