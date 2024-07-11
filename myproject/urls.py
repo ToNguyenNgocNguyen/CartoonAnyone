@@ -17,13 +17,21 @@ Including another URLconf
 from django.conf.urls.i18n import i18n_patterns
 from django.urls import path, include
 from django.contrib import admin
+from django.urls import re_path
+from django.http import HttpResponse
+import os
 
-
+def serve_verification_file(request):
+    file_path = os.path.join(os.path.dirname(__file__), 'google2c57fe5325dba778.html')
+    with open(file_path, 'r') as file:
+        return HttpResponse(file.read(), content_type='text/html')
+    
 urlpatterns = [
     path('i18n/', include('django.conf.urls.i18n')),
 ]
 
 urlpatterns += i18n_patterns(
+    re_path(r'^google2c57fe5325dba778.html$', serve_verification_file),
     path('admin_tools_stats/', include('admin_tools_stats.urls')),
     path('admin/', admin.site.urls),
     path('', include('myapp.urls')),
